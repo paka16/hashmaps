@@ -20,7 +20,7 @@ The underlying structures are located in underlying_structures.py file
 # functions
 Each hashmap implementation has a function, besides from the methods:
 * find_mode() - separate chaining
-* an iterator = open addressing
+* __iter__(), __next__() - open addressing
 
 # usage example
 ```python
