@@ -22,7 +22,9 @@ Each hashmap implementation has a function, besides from the methods:
 * find_mode() - separate chaining
 * __iter__(), __next__() - open addressing
 
-# usage example
+# usage and example
+1. download all three files, especially making sure to download the supplemental underlying structures file. the code will not run without it. 
+
 ```python
 # declare a hashmap first:
 m = HashMap(11, hash_function_1)
